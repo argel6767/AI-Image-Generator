@@ -24,3 +24,10 @@ svg {
     left: 0;
     z-index: -10;
 }
+
+.bottom-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
