@@ -10,6 +10,13 @@ body {
     align-items: center;
 }
 
+header {
+    color: #ffffff;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
 svg {
     position: absolute;
     top: 0;
