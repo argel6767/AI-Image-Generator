@@ -31,3 +31,10 @@ svg {
     justify-content: center;
     height: 150px;
 }
+
+.input-container {
+    width: 100%;
+    max-width: 650px;
+    position: relative;
+}
+
