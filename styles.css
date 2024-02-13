@@ -65,3 +65,11 @@ input {
     justify-content: space-between;
     padding: 10px;
 }
+
+.image-container {
+    width: 40%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgb(38, 57,77) 0 20px 30px -10px;
+}
+
