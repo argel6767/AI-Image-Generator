@@ -34,8 +34,18 @@ svg {
 
 .input-container {
     width: 100%;
-    max-width: 650px;
+    max-width: 600px;
     position: relative;
+}
+
+input {
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: #2a2828;
+    box-sizing: border-box;
 }
 
 #submit-icon {
