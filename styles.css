@@ -16,6 +16,8 @@ header {
     height: 150px;
     display: flex;
     align-items: center;
+    width: 100%;
+    justify-content: center;
 }
 
 svg {
@@ -44,7 +46,7 @@ input {
     font-size: 20px;
     padding: 10px;
     border-radius: 5px;
-    box-shadow: #2a2828;
+    box-shadow: #2a2828 0 20px 30px -10px;
     box-sizing: border-box;
 }
 
