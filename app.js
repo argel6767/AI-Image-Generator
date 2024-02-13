@@ -11,12 +11,12 @@ const getImages = async() => {
         method: "POST",
         headers : {
             "Authorization": `Bearer ${API_KEY}`,
-            'Content-Type': "application/json"
+            "Content-Type": "application/json"
         },
         body : JSON.stringify({
-            "prompt" : inputElement.value,
-            "n" : 4,
-            "size" : "1024x1024"
+            prompt : inputElement.value,
+            n : 4,
+            size : "1024x1024"
         })
     }
 

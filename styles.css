@@ -67,9 +67,12 @@ input {
 }
 
 .image-container {
-    width: 40%;
+    width: 48%;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: rgb(38, 57,77) 0 20px 30px -10px;
+    box-shadow: #26394d 0 20px 30px -10px;
 }
 
+.image-container img {
+    width: 100%;
+}
