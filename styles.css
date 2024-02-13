@@ -56,3 +56,12 @@ input {
     right: 30px;
     cursor: pointer;
 }
+
+.images-section {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
