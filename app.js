@@ -1,10 +1,10 @@
-const API_KEY = "API_KEY"
+const API_KEY = "API-KEY"
 
 const submitIcon = document.querySelector("#submit-icon")
 
 const inputElement =  document.querySelector("input")
 
-async function getImages() {
+const getImages = async() => {
     const options = {
         method: "POST",
         headers : {
